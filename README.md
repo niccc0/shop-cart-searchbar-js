@@ -1,4 +1,4 @@
-Shop-cart-searchbar in javascript + html and sass (scss)
+Shop-cart-searchbar in javascript + html and css
 
 1. Описание проекта
 В данном проекте реализована функция, имеющаяся на многих коммерческих сайтах - корзина покупок.
