@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "lace-up sneakers",
+        "price": 7990,
+        "image": { "fields": { "file": { "url": "/images/sneakers0.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "low top sneakers",
+        "price": 9900,
+        "image": { "fields": { "file": { "url": "/images/sneakers1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "low top sneakers",
+        "price": 7900,
+        "image": { "fields": { "file": { "url": "/images/sneakers2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "low top sneakers",
+        "price": 4900,
+        "image": { "fields": { "file": { "url": "/images/sneakers3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "high top sneakers",
+        "price": 11900,
+        "image": { "fields": { "file": { "url": "/images/sneakers4.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "low top sneakers",
+        "price": 15700,
+        "image": { "fields": { "file": { "url": "/images/sneakers5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "high top sneakers",
+        "price": 7500,
+        "image": { "fields": { "file": { "url": "/images/sneakers6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "lace-up sneakers",
+        "price": 13900,
+        "image": { "fields": { "file": { "url": "/images/sneakers7.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "bolzter sneakers",
+        "price": 19900,
+        "image": { "fields": { "file": { "url": "/images/sneakers8.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "low top basket leather sneakers",
+        "price": 22900,
+        "image": { "fields": { "file": { "url": "/images/sneakers9.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "lace-up sneakers",
+        "price": 11900,
+        "image": { "fields": { "file": { "url": "/images/sneakers10.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "high top sneakers",
+        "price": 18900,
+        "image": { "fields": { "file": { "url": "/images/sneakers11.jpg" } } }
+      }
+    }
+  ]
+}

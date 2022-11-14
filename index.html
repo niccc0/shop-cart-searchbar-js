@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clothing Store</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="/svg/favicon.ico" type="image/x-icon">
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js"
+            integrity="sha512-kWH92pHUC/rcjpSMu19lT+H6TlZwZCAftg9AuSw+AVYSdEKSlXXB8o6g12mg5f+Pj5xO40A7ju2ot/VdodCthw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        <script defer src="/app.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="container navbar">
+                <div class="logo">
+                    <a href="#" class="logo">s0me_branD</a>
+                </div>
+                <div class="links">
+                    <div class="search-bar">
+                        <input type="search" class="input-search"
+                            id="input-search" placeholder="Search">
+                    </div>
+                       <button class="button cart-link" id="cart-link"> <img src="/svg/cart-default.svg"></img> </button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="cart-menu" id="cart-menu">
+            <div class="cart">
+
+                <div class="cart-top">
+                    <img src="/svg/delete.svg" alt="" class="close-button button">
+                <div class="cart-header">
+                    <h2>My basket</h2>
+                    <span class="current-amount">(0)</span>
+                </div>
+                <div class="cart-items" id="cart-items">
+                </div> 
+            </div>
+            <div class="cart-bottom">
+                <div class="cart-total" id="cart-total">
+                    <span class="total">Total</span>
+                    <span class="current-price total-price-cart">¥0</span>
+                </div>
+                <button type="submit" class="button cart-button button-order" id="button-order">Process order</button>
+            </div>  
+        </div> <!-- cart menu end -->
+            </div>
+            
+
+        <main class="main">
+            <section class="grid-products container" id="grid-products">
+            </section>
+            <div class="empty hidden">Unfortunately there's nothing in here...</div>
+        </main>
+
+        <footer class="footer container">
+            <div class="left">
+                <div class="footer-links-column">
+                    <h4>Can we help you?</h4>
+                    <ul class="flex-list">
+                        <li class="contact-item">
+                            <a href="#"> 
+                                <img src="/svg/chat.svg" alt="">
+                                <span class="contact">Start chat</span> </a>
+                                <p class="contact-subtext">From Mondays to Fridays from 03:00 to 11:00
+                                </p>
+                        </li>
+                        <li class="contact-item">
+                            <a href="#"> 
+                                <img src="/svg/phone.svg" alt="">
+                                <span class="contact">0120 98 3520</span></a>
+                                <p class="contact-subtext">From Mondays to Fridays from 09:00 to 17:00</p>
+                            </li>
+                   
+                        <li class="contact-item">
+                            <a href="#"> 
+                                <img src="/svg/email.svg" alt="">
+                                <span class="contact">Send email</span></a>
+                                <p class="contact-subtext">We'll reply asap</p>
+                            </li>
+                    </ul>
+                </div>
+                <div class="footer-links-column">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">Shop online</a></li>
+                        <li><a href="#">Payment</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Guest purchase</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-column">
+                    <h4>We are s0me_branD</h4>
+                    <ul>
+                        <li><a href="#">About s0me_branD</a></li>
+                        <li><a href="#">Join Life</a></li>
+                        <li><a href="#">Work with us</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-column">
+                    <h4>You might be interested in</h4>
+                    <ul>
+                        <li><a href="#">Coats</a></li>
+                        <li><a href="#">T-shirts</a></li>
+                        <li><a href="#">Suits</a></li>
+                        <li><a href="#">Tailoring</a></li>
+                        <li><a href="#">Sweatshirts and hoodies</a></li>
+                        <li><a href="#">Trousers</a></li>
+                        <li><a href="#">Overshirt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
